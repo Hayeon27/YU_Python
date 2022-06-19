@@ -10,8 +10,8 @@ width, length = map(int, input_str.split(sep = ' '))  #(1)
 area = width * length                                 #area : the area of a rectangle (using the formula of the area of a rectangle)
 peri = 2 * (width + length)                           #peri : the perimeter of a rectangle (using the formula of the perimeter of a rectangle)
 
-print("Rectangle of width ({}) and length ({}) : area ({}), perimeter ({})")\
-    .format(width, length, area, peri)                #print "width, length, area, peri"
+print("Rectangle of width ({}) and length ({}) : area ({}), perimeter ({})"\
+    .format(width, length, area, peri))               #print "width, length, area, peri"
 
 '''
 (1) : separate words based on spaces, convert them to int format, and store them in width and length variables
